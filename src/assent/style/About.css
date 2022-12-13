@@ -1,0 +1,27 @@
+.about__container {
+  width: 100px;
+  height: 110vh;
+}
+.about__section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about__image {
+  padding: 5rem 4rem;
+}
+.about__image .img {
+  width: 400px;
+}
+.about__info {
+  padding-right: 2rem;
+  border: 2px solid black;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.about__info .about__info-heading {
+  font-size: 2.5rem;
+}
